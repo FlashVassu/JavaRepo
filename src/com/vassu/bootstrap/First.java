@@ -7,7 +7,8 @@ public class First {
 		// TODO Auto-generated method stub
 		 Cheetah cheetah = new Cheetah();
 		  String cheetahName= cheetah.getName();
-		  System.out.println(cheetahName);
+		 int numLets=cheetah.getLegCount();
+		  System.out.println(numLets);
 	}
 
 }
